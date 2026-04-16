@@ -1,6 +1,9 @@
 # esp32-irrigation-system
 Edge-AI irrigation using ESP32
 
+## System Architecture
+![System Diagram](images/diagram.png)
+
 ## Overview
 This project implements a smart irrigation system using ESP32-S3 and a soil moisture sensor to automate water supply based on real-time soil conditions.
 
@@ -21,6 +24,14 @@ The soil moisture sensor collects analog data, which is processed by the ESP32-S
 
 ## Code
 The Arduino code is available in the `/code` folder.
+
+## Future Improvements
+- Integration with IoT dashboard
+- Machine learning-based prediction
+- Mobile app control
+
+## License
+This project is for academic and research purposes.
 
 ## Author
 Bhavya Kapoor
