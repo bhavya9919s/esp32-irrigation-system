@@ -1,5 +1,4 @@
-# esp32-irrigation-system
-Edge-AI irrigation using ESP32
+# Edge-AI Enabled Precision Irrigation System Using ESP32 with On-Device Soil Moisture Monitoring
 
 ![Platform](https://img.shields.io/badge/Platform-ESP32--S3-blue)
 ![Domain](https://img.shields.io/badge/Domain-Smart%20Agriculture-green)
@@ -10,10 +9,7 @@ Edge-AI irrigation using ESP32
 This project implements an Edge-AI enabled smart irrigation system using ESP32-S3 and a soil moisture sensor to automate water supply based on real-time soil conditions. The system performs on-device decision making without relying on cloud infrastructure, making it efficient, low-cost, and suitable for small-scale agriculture.
 
 ## System Architecture
-![System Diagram](images/diagram.png)
-
-## Circuit Diagram
-![Circuit Diagram](images/circuit.png)
+![System Diagram](diagram.png)
 
 ## Features
 - Real-time soil moisture monitoring  
@@ -40,7 +36,7 @@ The soil moisture sensor continuously measures soil conditions and sends analog 
 5. Irrigation is automated based on soil condition  
 
 ## Code
-The implementation code for the ESP32-S3 is available in the `/code` folder.
+The implementation code for the ESP32-S3 is available in the `/code` folder, demonstrating real-time soil moisture monitoring and automated irrigation control.
 
 ## Future Improvements
 - Integration with IoT dashboard  
